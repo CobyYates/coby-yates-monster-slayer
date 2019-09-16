@@ -3,7 +3,8 @@
     <section class="row container text-center">
         <div class="small-5 columns">
             <h1 class="text-center text-uppercase">Thor</h1>
-            <img src="https://i.gifer.com/S5Qj.gif" alt="God of Thunder">
+            <!-- <img src="https://i.gifer.com/S5Qj.gif" alt="God of Thunder"> -->
+
             <div class="healthbar">
                 <div
                     v-ripple
@@ -65,9 +66,9 @@
 </div>
     <div class="small-5 columns">
         <h1 class="text-center text-uppercase">Thanos</h1>
-        <div class="char">
-            <img @click="overlay = !overlay" src="https://i.ibb.co/2qDq1j9/1234.gif" alt="Thanos">
-        </div>
+        <v-row align="center" justify="center" class="char">
+            <v-img src="https://i.ibb.co/2qDq1j9/1234.gif" aspect-ratio=".8431" max-width="150px"></v-img>
+        </v-row>
         
         <div class="healthbar">
             <div
