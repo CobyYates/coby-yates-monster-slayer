@@ -1,6 +1,6 @@
 <template>
  <v-app>
-    <section class="row container">
+    <section class="row container text-center">
         <div class="small-5 columns">
             <h1 class="text-center text-uppercase">Thor</h1>
             <img src="https://i.gifer.com/S5Qj.gif" alt="God of Thunder">
@@ -20,7 +20,7 @@
             
     <section class="row controls" v-if="!gameIsRunning">
         <v-flex>
-        <v-btn rounded color="success" @click="startGame" dark>START NEW GAME</v-btn>
+        <v-btn rounded color="success" @click="startGame() + changeColor()" dark>START NEW GAME</v-btn>
         </v-flex>
     </section>
 
