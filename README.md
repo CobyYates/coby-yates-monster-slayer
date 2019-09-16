@@ -1,8 +1,7 @@
 # coby-yates-monster-slayer
 -Changed all the buttons to v-btn's.
 -Tool tip for each attack btn explaining how much damage each attack does
--Made the player names uppercase through a class
-added vripple when you click on the health bars
+-Made the player names uppercase through a class added vripple when you click on the health bars
 -Changed the color when a players health is below 25%
 -Added a dialog for giving up and changed its button.
 

@@ -115,7 +115,11 @@ export default {
         turns: [],
         clicked: [],
         selected: 0,
-        color: 'green'
+        color: 'green',
+        justify: [
+            'start',
+            'end'
+        ]
         }        
     },
     methods: {
@@ -217,7 +221,6 @@ export default {
     color: #2c3e50;
     background-color: #424f56;
     margin-top: 60px;
-    /* padding-left: 500px; */
 }
 
 
@@ -249,7 +252,6 @@ html {
 
 .controls, .log {
     margin-top: 50px;
-    /* text-align: right; */
 }
 
 .turn {
@@ -263,7 +265,10 @@ html {
     list-style: none;
     font-weight: bold;
     text-transform: uppercase;
-    margin: 0 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .log ul li {
@@ -273,18 +278,18 @@ html {
 .log ul .player-turn {
     color: blue;
     background-color: #e4e8ff;
+    border-radius: 15px;
+    width: 400px;
 }
 
 .log ul .monster-turn {
     color: red;
     background-color: #ffc0c1;
+    border-radius: 15px;
+    width: 400px;
 }
 
 button {
-    font-size: 20px;
-    background-color: #eee;
-    padding: 12px;
-    box-shadow: 0 1px 1px black;
-    margin: 10px;
+    margin: 20px;
 }
 </style>
