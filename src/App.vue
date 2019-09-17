@@ -3,7 +3,7 @@
     <section class="row container text-center">
         <div class="small-5 columns">
             <h1 class="text-center text-uppercase">Thor</h1>
-            <!-- <img src="https://i.gifer.com/S5Qj.gif" alt="God of Thunder"> -->
+            <img src="https://i.gifer.com/S5Qj.gif" alt="God of Thunder">
 
             <div class="healthbar">
                 <div
@@ -56,7 +56,7 @@
 
                 <v-btn color="green darken-1" text @click="dialog = false">Fight</v-btn>
 
-                <v-btn color="green darken-1" text @click="giveUp()">Give Up</v-btn><!-- @click="giveUp" -->
+                <v-btn color="green darken-1" text @click="giveUp()">Give Up</v-btn>
                 </v-card-actions>
             </v-card>
         </v-dialog>
@@ -66,10 +66,9 @@
 </div>
     <div class="small-5 columns">
         <h1 class="text-center text-uppercase">Thanos</h1>
-        <v-row align="center" justify="center" class="char">
-            <v-img src="https://i.ibb.co/2qDq1j9/1234.gif" aspect-ratio=".8431" max-width="150px"></v-img>
-        </v-row>
-        
+        <div class="char">
+        <img src="https://media3.giphy.com/media/xWKSuvRA0vwxW/giphy.gif" alt="Thanos">
+        </div>
         <div class="healthbar">
             <div
                 v-ripple
@@ -102,7 +101,7 @@
 
 
 export default {
-  name: 'App',
+  name: '#app',
   components: {
   },
    data: function() {
